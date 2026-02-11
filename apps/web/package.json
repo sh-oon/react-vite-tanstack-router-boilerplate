@@ -11,7 +11,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "@stylexjs/stylex": "^0.9",
+    "@stylexjs/stylex": "^0.17",
     "@tanstack/react-router": "^1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
