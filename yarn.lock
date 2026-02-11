@@ -1060,7 +1060,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:^2.2.5"
     "@mono/tsconfig": "npm:*"
-    "@stylexjs/stylex": "npm:^0.9"
+    "@stylexjs/stylex": "npm:^0.17"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
     react: "npm:^19.2.0"
@@ -1090,7 +1090,7 @@ __metadata:
     "@biomejs/biome": "npm:^2.2.5"
     "@mono/ui-components": "npm:*"
     "@mono/utils": "npm:*"
-    "@stylexjs/stylex": "npm:^0.9"
+    "@stylexjs/stylex": "npm:^0.17"
     "@tanstack/react-router": "npm:^1"
     "@tanstack/router-plugin": "npm:^1"
     "@types/react": "npm:^19"
@@ -1359,7 +1359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylexjs/stylex@npm:0.9.3, @stylexjs/stylex@npm:^0.9":
+"@stylexjs/stylex@npm:0.9.3":
   version: 0.9.3
   resolution: "@stylexjs/stylex@npm:0.9.3"
   dependencies:
@@ -1367,6 +1367,17 @@ __metadata:
     invariant: "npm:^2.2.4"
     styleq: "npm:0.1.3"
   checksum: 10c0/2c0aa2e0169c8099da863f45c59cc94a7657b63d9c02ec90c25d5d114cb36ac735c454fd3ca33c0616ef36edcd3c63156dfe8e3187acc05f4221eec8e1b3a789
+  languageName: node
+  linkType: hard
+
+"@stylexjs/stylex@npm:^0.17":
+  version: 0.17.5
+  resolution: "@stylexjs/stylex@npm:0.17.5"
+  dependencies:
+    css-mediaquery: "npm:^0.1.2"
+    invariant: "npm:^2.2.4"
+    styleq: "npm:0.2.1"
+  checksum: 10c0/5931fceed574a956d6f6dc991a8f98fbe8d7991b25f49c24e406059e299b3a178e2ec43d73c9c62c5a245c1c5d029e4dcb0a8ad6ca5c9a1369e44365f0ce1cbf
   languageName: node
   linkType: hard
 
@@ -4053,6 +4064,13 @@ __metadata:
   version: 0.1.3
   resolution: "styleq@npm:0.1.3"
   checksum: 10c0/975d951792e65052f1f6e41aaad46492642ce4922b3dc36d4b49b37c8509f9a776794d8f275360f00116a5e6ab1e31514bdcd5840656c4e3213da6803fa12941
+  languageName: node
+  linkType: hard
+
+"styleq@npm:0.2.1":
+  version: 0.2.1
+  resolution: "styleq@npm:0.2.1"
+  checksum: 10c0/93deb170c59cae56e0bb4147edcb1a024b4c3ad73d8f67aedf730c339a1a0097419367473f979b0ee6776fc51184d3a742e80deaa80623e6d64014f3acd24e49
   languageName: node
   linkType: hard
 
