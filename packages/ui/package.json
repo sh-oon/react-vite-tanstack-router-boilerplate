@@ -20,7 +20,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@stylexjs/stylex": "^0.9"
+    "@stylexjs/stylex": "^0.17"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.5",
