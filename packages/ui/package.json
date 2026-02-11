@@ -1,0 +1,36 @@
+{
+  "name": "@mono/ui-components",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "biome check src",
+    "lint:fix": "biome check --write --unsafe src",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.9"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.5",
+    "@mono/tsconfig": "*",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19.2.0",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../../packages/tsconfig/vite.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@mono/ui-components": ["../../packages/ui/src/index.ts"],
+      "@mono/utils": ["../../packages/utils/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "vite-env.d.ts"]
+}
