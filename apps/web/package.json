@@ -17,7 +17,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.4.2",
     "@mono/ui-components": "*",
     "@mono/utils": "*",
     "@tanstack/router-plugin": "^1",

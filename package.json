@@ -20,12 +20,12 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.4.2",
     "@changesets/cli": "^2.29.4",
     "@mono/tsconfig": "*",
     "husky": "^9",
     "lint-staged": "^15",
-    "turbo": "^2.5.8",
+    "turbo": "^2.8.10",
     "typescript": "^5"
   },
   "packageManager": "yarn@4.12.0",

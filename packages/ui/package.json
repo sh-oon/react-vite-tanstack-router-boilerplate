@@ -23,7 +23,7 @@
     "@stylexjs/stylex": "^0.9"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.4.2",
     "@mono/tsconfig": "*",
     "@types/react": "^19",
     "@types/react-dom": "^19",
