@@ -17,14 +17,14 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.4.9",
     "@mono/ui-components": "*",
     "@mono/utils": "*",
     "@tanstack/router-plugin": "^1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4",
-    "typescript": "^5",
+    "typescript": "^6",
     "vite": "^6",
     "vite-plugin-stylex": "^0.13"
   }

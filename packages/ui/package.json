@@ -23,13 +23,13 @@
     "@stylexjs/stylex": "^0.9"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
+    "@biomejs/biome": "^2.4.9",
     "@mono/tsconfig": "*",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "react": "^19.2.0",
     "tsup": "^8",
-    "typescript": "^5"
+    "typescript": "^6"
   },
   "peerDependencies": {
     "react": "^19.2.0"
